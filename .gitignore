@@ -1,52 +1,44 @@
-# Prerequisites
-*.d
+## Visual Studio
+.vs/
+*.user
+*.suo
+*.VC.db
+*.VC.VC.opendb
 
-# Object files
-*.o
-*.ko
+## Kompilacja
+Debug/
+Release/
+x64/
 *.obj
-*.elf
-
-# Linker output
-*.ilk
-*.map
-*.exp
-
-# Precompiled Headers
-*.gch
-*.pch
-
-# Libraries
-*.lib
-*.a
-*.la
-*.lo
-
-# Shared objects (inc. Windows DLLs)
-*.dll
-*.so
-*.so.*
-*.dylib
-
-# Executables
-*.exe
-*.out
-*.app
-*.i*86
-*.x86_64
-*.hex
-
-# Debug files
-*.dSYM/
-*.su
-*.idb
 *.pdb
+*.idb
+*.ilk
+*.exp
+*.log
+*.tlog
+*.cache
+*.ipch
+*.aps
+*.ncb
+*.pch
+*.sbr
+*.sdf
+*.opensdf
 
-# Kernel Module Compile Results
-*.mod*
-*.cmd
-.tmp_versions/
-modules.order
-Module.symvers
-Mkfile.old
-dkms.conf
+## Pliki czasowe / systemowe
+*.bak
+*.tmp
+*.log
+*.~*
+*.swp
+*.DS_Store
+Thumbs.db
+
+## Inne tymczasowe
+*.old
+*.orig
+
+## Symulacje
+*.vcd
+*.wlf
+*.out
